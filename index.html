@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<center>
+		<h1>Tic-Tac-Toe</h1>
+		<p>Make a straight line using <b>X's</b> or <b>O's</b></p>
+
+		<table border="1" id="board">
+			<tr>
+				<td id="0" onclick='boxClickHandler(event)''></td>
+				<td id="1" onclick='boxClickHandler(event)''></td>
+				<td id="2" onclick='boxClickHandler(event)'></td>
+			</tr>
+			<tr>
+				<td id="3" onclick='boxClickHandler(event)'></td>
+				<td id="4" onclick='boxClickHandler(event)'></td>
+				<td id="5" onclick='boxClickHandler(event)'></td>
+			</tr>
+			<tr>
+				<td id="6" onclick='boxClickHandler(event)'></td>
+				<td id="7" onclick='boxClickHandler(event)'></td>
+				<td id="8" onclick='boxClickHandler(event)'></td>
+			</tr>
+		</table>
+		<div id="result"></div>
+	</center>
+</body>
